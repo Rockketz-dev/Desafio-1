@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cv - Felipe Osorio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
     <h1>Curriculum Vitae - Felipe Osorio B.</h1>
 
-    <img src="assets/img/perfil.jpg" alt="Bowser Jr." height="200" />
+    <img src="assets/img/perfil.jpg" alt="Bowser Jr." class="perfil"/>
 
     <p>Me llamo <em>Felipe Osorio B.</em> y soy Diseñador Gráfico</p>
     <hr />
@@ -66,8 +67,7 @@
           ><img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkd5Rwc8vyTNHrS7e98W1QN1zAvWVA8Czbkg&s"
             alt="Logo Instagram"
-            height="30"
-            width="30"
+            class="logo"
         /></a>
       </li>
       <li>
@@ -75,8 +75,7 @@
           ><img
             src="data:image/png;base64,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"
             alt="Logo Behance"
-            height="30"
-            width="30"
+            class="logo"
         /></a>
       </li>
 
@@ -87,8 +86,7 @@
           ><img
             src="https://static.vecteezy.com/system/resources/previews/012/660/862/non_2x/linkedin-logo-on-transparent-isolated-background-free-vector.jpg"
             alt="Logo Linkedin"
-            height="30"
-            width="30"
+            class="logo"
         /></a>
       </li>
     </ul>
